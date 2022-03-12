@@ -1,0 +1,23 @@
+// Program to compute absolute value
+#include <iostream>
+using namespace std;
+float absolute(float var) {
+    if (var < 0.0)
+        var = -var;
+    return var;
+}
+int absolute(int var) {
+     if (var < 0)
+         var = -var;
+    return var;
+}
+
+int main() {
+    
+    // call function with int type parameter
+    cout << "Absolute value of -5 = " << absolute(-12456) << endl;
+
+    // call function with float type parameter
+    cout << "Absolute value of 5.5 = " << absolute(5.5f) << endl;
+    return 0;
+}
