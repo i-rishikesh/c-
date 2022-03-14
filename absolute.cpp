@@ -12,12 +12,9 @@ int absolute(int var) {
     return var;
 }
 
-int main() {
-    
-    // call function with int type parameter
+int main() 
+{
     cout << "Absolute value of -5 = " << absolute(-12456) << endl;
-
-    // call function with float type parameter
     cout << "Absolute value of 5.5 = " << absolute(5.5f) << endl;
     return 0;
 }
